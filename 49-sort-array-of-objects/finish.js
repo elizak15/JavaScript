@@ -1,3 +1,15 @@
+/** TASK 49 - Sorting objects in an array
+ *
+ * 1. Create a function "sortProductsByPrice" with one parameter "products"
+ *
+ * 2. This function should sort the input array of products
+ * by the price of each product in ascending order
+ * and return the sorted array
+ *
+ * 3. The original array should remain unchanged.
+ */
+
+
 /** ЗАДАЧА 49 - Сортировка объектов в массиве
  *
  * 1. Создайте функцию "sortProductsByPrice" с одним параметром "products"
@@ -13,7 +25,7 @@
 const sortProductsByPrice = (products) => {
   return [...products].sort((a, b) => a.price - b.price); }
 
-  
+
 const inputProducts = [
   {
     title: 'Phone case',
