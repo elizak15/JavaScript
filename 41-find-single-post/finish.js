@@ -1,3 +1,17 @@
+/** TASK 41 - Search for objects in an array
+ *
+ * 1. Create a function "findPostById" with two parameters:
+ * - post ID
+ * - array of posts
+ *
+ * 2. The function should return a post with a certain ID
+ *
+ * 3. If there is no post with a certain ID in the post array,
+ * the function must return "undefined"
+ *
+ * 4. Also inside the function, print the post ID to the console
+ */
+
 /** ЗАДАЧА 41 - Поиск объектов в массиве
  *
  * 1. Создайте функцию "findPostById" с двумя параметрами:
