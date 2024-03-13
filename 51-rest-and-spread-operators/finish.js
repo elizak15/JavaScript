@@ -1,3 +1,18 @@
+/** TASK 51 - Operators "rest" and "spread"
+ *
+ * 1. Create a function "meanScore",
+ * which will take any number of arguments,
+ * combine them into a single array and return the average of all arguments,
+ * rounded to 2 decimal places.
+ *
+ * 2. If at least one element in this array is not a number -
+ * output the following error to the console:
+ * "All arguments in the function call must be numbers!"
+ *
+ * TIP: In this task, you must use both the "rest" operator,
+ * as well as the "spread" operator.
+ */
+
 /** ЗАДАЧА 51 - Операторы "rest" (остаток) и "spread" (распространение)
  *
  * 1. Создайте функцию "meanScore",
