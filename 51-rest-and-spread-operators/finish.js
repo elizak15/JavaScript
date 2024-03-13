@@ -32,6 +32,7 @@ const meanScore = (...args) => {
   if(args.some((value) => typeof value !== "number")){
      console.error('Все аргументы в вызове функции должны быть числами');
      return
+    // throw new Error("Все аргументы в вызове функции должны быть числами")
   }
   return args.reduce((average, element) => average + element / args.length , 0).toFixed(2);
 
