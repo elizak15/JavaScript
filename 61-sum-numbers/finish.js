@@ -1,3 +1,14 @@
+/** CHALLENGE 61 - Sum of Numbers
+ *
+ * 1. Create a function "sumNumbers" that will sum all arguments passed to it.
+ * The number of arguments is unknown
+ *
+ * 2. Use console.log inside the function to output the result
+ *
+ * 3. Also return this sum as the result of the function
+ */
+
+
 /** ЗАДАЧА 61 - Сумма чисел
  *
  * 1. Создайте функцию "sumNumbers", которая будет суммировать все переданные ей аргументы.
