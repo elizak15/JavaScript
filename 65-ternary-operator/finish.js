@@ -18,9 +18,16 @@
 //   }
 // }
 
+//OPTION 1
+// const isNumber = (a) => typeof a === 'number' ? `${a} - это число` : `${a} - это не число`
+ 
+
+//OPTION 2
 function isNumber(a) {
    return typeof a === 'number' ? `${a} - это число` : `${a} - это не число`
   }
+
+
 
 console.log(isNumber(10))
 // 10 - это число
