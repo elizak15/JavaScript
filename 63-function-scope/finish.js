@@ -10,7 +10,7 @@ let d = 15
 function myFn1(a) {
   let b
   let d = 10
-  myFn2(b)
+  myFn2(b) // b == undefined
 }
 
 function myFn2(a) {
@@ -20,4 +20,4 @@ function myFn2(a) {
 
 myFn1()
 
-// a - undefined, b - 2, c - 5, d - 15
+// a - undefined, b - 2 - global scope, c - 5, d - 15 - - global scope
