@@ -1,3 +1,10 @@
+/** TASK 71 - Spread Operator
+ *
+ * Use the "spread" operator to create a new array
+ * The output in the console should be the same as at the end of the task
+ */
+
+
 /** ЗАДАЧА 71 - Spread Operator
  *
  * Используя оператор "spread" создайте новый массив
